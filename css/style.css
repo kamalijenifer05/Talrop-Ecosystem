@@ -112,7 +112,7 @@ body {
 
 #container2 .con2 .page2 .head {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
     background-color: rgba(255, 255, 255, 0.54);
     border-radius: 25px;
     padding: 10px 5px;
@@ -742,10 +742,10 @@ body {
 /*----------------------responsive768 to 979--------------------------------------------*/
 @media screen and (min-width : 768px) and (max-width :979px) {
     #spotlight .nave {
-        gap: 250px;
+        gap: 200px;
     }
     #spotlight .nav-bar ul li{
-        font-size: 16px;
+        font-size: 14px;
         padding: 5px;
     }
     #spotlight .content h1 {
@@ -760,8 +760,8 @@ body {
 
     #container2 .con2 .page2 .head {
         width: 30vw;
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: 500;
     }
 
     #container2 .con2 .page2 {
@@ -862,7 +862,7 @@ body {
 /*-------------------------responsive640 to 7697----------------------------------------*/
 @media screen and (min-width : 640px) and (max-width :767px) {
     #spotlight .nave {
-        gap: 250px;
+        gap: 100px;
     }
     .nave {
         justify-content: space-between;
@@ -1026,7 +1026,7 @@ body {
 /*--------------------------------------responsive540 to 639----------------------------*/
 @media screen and (min-width : 540px) and (max-width :639px) {
     #spotlight .nave {
-        gap: 150px;
+        gap: 100px;
     }
     .nave {
         justify-content: space-between;
@@ -1228,7 +1228,7 @@ body {
 /*-----------------------------responsive480 to 539------------------------*/
 @media screen and (min-width : 480px) and (max-width :539px) {
     #spotlight .nave {
-        gap: 100px;
+        gap: 50px;
     }
     .nave {
         justify-content: space-between;
@@ -1449,7 +1449,7 @@ body {
 /*---------------------------------responsive360px to 479----------------*/
 @media screen and (min-width : 360px) and (max-width :479px) {
     #spotlight .nave {
-        gap: 200px;
+        gap: 90px;
     }
     .nave {
         justify-content: space-between;
@@ -1501,7 +1501,7 @@ body {
     #container2 .con2 .page2 .head {
         width: 51vw;
         font-size: 15px;
-        font-weight: bold;
+        font-weight: 400;
         align-items: center;
         justify-content: center;
     }
